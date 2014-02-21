@@ -1,14 +1,44 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Golfcrony</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<%= yield %>
+    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
 
-</body>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+
+<header>
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">Golf Crony</a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="left">
+      <li class="active"><%= link_to "Home", root_path %></li>
+      <li><%= link_to "Groups", groups_path %></li>
+    </ul>
+
+  </section>
+</nav>
+</header>
+
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+
+    <%= javascript_include_tag "application" %>
+  </body>
 </html>
