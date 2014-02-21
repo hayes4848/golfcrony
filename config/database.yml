@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: golfcrony_development
+  pool: 5
+  username: cody
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: golfcrony_test
+  pool: 5
+  username: cody
+  password:
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: golfcrony_production
+  pool: 5
+  username: cody
+  password:
