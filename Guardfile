@@ -22,6 +22,7 @@ guard 'pow' do
   watch(%r{^config/environments/.*\.rb$})
   watch(%r{^config/initializers/.*\.rb$})
 end
+<<<<<<< HEAD
 
 guard 'livereload' do
   watch(%r{app/views/.+\.(erb|haml|slim)$})
@@ -44,3 +45,5 @@ guard 'pow' do
   watch(%r{^config/environments/.*\.rb$})
   watch(%r{^config/initializers/.*\.rb$})
 end
+=======
+>>>>>>> 864b1e7cc0690091d45b9aa41f9d51d6f6ec4f80

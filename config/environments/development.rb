@@ -15,7 +15,10 @@ Golfcrony::Application.configure do
 
   # Don't care if the mailer can't send
   config.action_mailer.raise_delivery_errors = false
+<<<<<<< HEAD
   config.action_mailer.delivery_method = :letter_opener
+=======
+>>>>>>> 864b1e7cc0690091d45b9aa41f9d51d6f6ec4f80
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
@@ -38,6 +41,9 @@ Golfcrony::Application.configure do
 
   # Allows livereload to auto refresh
   config.middleware.use Rack::LiveReload
+<<<<<<< HEAD
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+=======
+>>>>>>> 864b1e7cc0690091d45b9aa41f9d51d6f6ec4f80
 end

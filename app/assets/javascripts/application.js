@@ -12,7 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+<<<<<<< HEAD
 //= require foundation
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
+=======
+//= require_tree .
+>>>>>>> 864b1e7cc0690091d45b9aa41f9d51d6f6ec4f80

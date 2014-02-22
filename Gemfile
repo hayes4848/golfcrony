@@ -7,6 +7,7 @@ gem 'rails', '~> 3.2.16'
 
 gem 'pg'
 
+<<<<<<< HEAD
 gem 'foundation-rails'
 
 gem 'simple_form'
@@ -15,6 +16,10 @@ gem "paperclip", "~> 3.0"
 
 gem 'devise'
 
+=======
+gem 'simple_form'
+
+>>>>>>> 864b1e7cc0690091d45b9aa41f9d51d6f6ec4f80
 group :development do
   gem "better_errors"
   gem "binding_of_caller"

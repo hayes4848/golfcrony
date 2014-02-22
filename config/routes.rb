@@ -1,4 +1,5 @@
 Golfcrony::Application.routes.draw do
+<<<<<<< HEAD
 
   devise_for :users
 
@@ -7,6 +8,8 @@ Golfcrony::Application.routes.draw do
   resources :groups
 
 
+=======
+>>>>>>> 864b1e7cc0690091d45b9aa41f9d51d6f6ec4f80
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -56,7 +59,11 @@ Golfcrony::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
+<<<<<<< HEAD
 
+=======
+  # root :to => 'welcome#index'
+>>>>>>> 864b1e7cc0690091d45b9aa41f9d51d6f6ec4f80
 
   # See how all your routes lay out with "rake routes"
 
