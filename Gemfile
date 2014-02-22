@@ -13,6 +13,8 @@ gem 'simple_form'
 
 gem "paperclip", "~> 3.0"
 
+gem 'devise'
+
 group :development do
   gem "better_errors"
   gem "binding_of_caller"
